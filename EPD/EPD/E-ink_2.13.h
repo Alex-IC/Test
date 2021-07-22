@@ -87,10 +87,7 @@ void EPD_SetFrameMemory(const unsigned char* image_buffer, int x, int y, int ima
 void EPD_Display(const unsigned char* image_buffer);
 void EPD_DisplayPart(const unsigned char* image_buffer);
 
-static void EPD_SetLut(const unsigned char* lut);
-
-
-
+//static void EPD_SetLut(const unsigned char* lut);
 
 
 
